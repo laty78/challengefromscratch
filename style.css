@@ -1,0 +1,173 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.chase {
+	height: 670px;
+	background-image: url(images/banner-main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2 {
+	font-size: 55px;
+	color: white;
+}
+
+h3 {
+	font-size: 50px;
+	color: #54668F;
+}
+
+p {
+	font-size: 20px;
+}
+
+.since {
+	height: 70px;
+	background-color: #75A2BB;
+}
+
+.our {
+	height: 110px;
+}
+
+.come {
+	height: 135px;
+	background-color: #3E76B2;
+}
+
+.famous {
+	height: 820px;
+	background-image: url(images/30.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fire {
+	display: inline-block;
+}
+
+.best {
+	height: 1000px;
+}
+
+.image1 {
+	display: block;
+}
+
+.image2 {
+	display: block;
+}
+
+.bestimag {
+	width: 270px;
+	height: 270px;
+	float: left;
+}
+
+figure .bestimage {
+	display: block;
+}
+
+.bestimg {
+	width: 270px;
+	height: 270px;
+	float: right;
+}
+
+.grandeimg {
+	width: 547px;
+	height: 547px;
+}
+
+.themisto {
+	height: 600px;
+	background-image: url(images/bg-testimonials.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.9 black;
+}
+
+#carrousel {
+	position: relative;
+	width: 500px;
+	height: 370px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+#content ul {
+	display: inline-block;
+}
+
+#content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 500px;
+	margin: 0;
+	padding: 0;
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes AutoSlide {
+	0%,
+	15%,
+	100% {
+		left: 0px;
+		/*1ère image*/
+	}
+	35%,
+	50% {
+		left: -250px;
+		/*2ème image*/
+	}
+	50%,
+	75% {
+		left: -500px;
+		/*3ème image*/
+	}
+}
+
+.studies {
+	height: 1000px;
+}
+
+.civil {
+	height: 440px;
+	background-image: url(images/bg-civil-law.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.quick {
+	height: 446px;
+	background-color: #54667A;
+}
+
+.disp {
+	display: inline-block;
+	color: antiquewhite;
+}
+
+.image {
+	color: white;
+}
+
+footer {
+	height: 60px;
+	background-color: #405165;
+}
+
+.trait {
+	background-color: black;
+	height: 1pt;
+	width: 30px;
+	margin-left: 435px;
+}
