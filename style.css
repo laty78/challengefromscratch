@@ -152,6 +152,17 @@ h3 {
 
 .best {
 	height: 1000px;
+	margin-bottom: 0px;
+	margin-top: 130px;
+}
+
+.traitbest {
+	background-color: #E5E5E5;
+	height: 2pt;
+	width: 32px;
+	margin-left: 630px;
+	margin-bottom: 75px;
+	margin-top: 50px;
 }
 
 .blocimage {
@@ -164,9 +175,11 @@ h3 {
 
 .image1 {
 	margin-left: 60px;
+	margin-bottom: 0;
 }
 
 .image2 {
+	margin-top: 5px;
 	margin-left: 60px;
 }
 
@@ -175,11 +188,13 @@ h3 {
 }
 
 .image4 {
-	margin-left: -25px;
+	margin-left: -35px;
+	margin-bottom: 0;
 }
 
 .image5 {
-	margin-left: -25px;
+	margin-top: 5px;
+	margin-left: -35px;
 }
 
 .bestimag {
@@ -238,7 +253,6 @@ h3 {
 	background-image: url(images/bg-testimonials.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.9 black;
 }
 
 #carrousel {
