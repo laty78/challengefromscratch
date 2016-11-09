@@ -209,6 +209,9 @@ h3 {
 .bestimag figure {
 	width: 270px;
 	height: 270px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
 }
 
 .bestimag figure img {
@@ -226,6 +229,9 @@ h3 {
 .bestimg figure {
 	width: 270px;
 	height: 270px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
 }
 
 .bestimg figure img {
@@ -241,11 +247,26 @@ h3 {
 .grandeimg figure {
 	width: 547px;
 	height: 547px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
 }
 
 .grandeimg figure img {
 	width: 547px;
 	height: 547px;
+}
+
+.zoom figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .6s ease-in-out;
+	transition: .6s ease-in-out;
+}
+
+.zoom figure:hover img {
+	-webkit-transform: scale(1.4);
+	transform: scale(1.4);
 }
 
 .themisto {
