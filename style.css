@@ -295,7 +295,7 @@ h3 {
 	overflow: hidden;
 }
 
-#content ul {
+#content li {
 	display: inline-block;
 }
 
@@ -370,9 +370,30 @@ h3 {
 	background-color: #54667A;
 }
 
+.image,
 .disp {
 	display: inline-block;
 	color: antiquewhite;
+	margin: 30px;
+}
+
+.spec {
+	color: rgb(237, 237, 237);
+	font-size: 20px;
+	font-weight: 400px;
+}
+
+.patricia {
+	margin-left: 120px;
+	color: rgb(198, 198, 198);
+	font-size: 16px;
+	font-weight: 400px;
+}
+
+.corporate {
+	font-size: 16px;
+	font-weight: 400px;
+	color: rgb(117, 162, 187);
 }
 
 .image {
@@ -382,6 +403,15 @@ h3 {
 footer {
 	height: 60px;
 	background-color: #405165;
+}
+
+.footer {
+	color: rgb(160, 168, 178);
+	font-size: 12px;
+	font-weight: 400px;
+	letter-spacing: 1px;
+	padding-top: 25px;
+	margin-left: 20px;
 }
 
 .trait {
