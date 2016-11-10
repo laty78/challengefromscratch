@@ -3,8 +3,62 @@ body {
 	font-family: Playfair Display;
 }
 
-.navbar-nav li {
+.nav-bar {
+	height: 130px;
+	background-color: #E3DED8;
+	opacity: 0.9;
+}
+
+.navbar-brand {
+	float: left;
+	margin-left: 100px;
+	padding-top: 35px;
+}
+
+
+/*.navbar-nav li {
+	display: inline-block;
+	float: right;
+}
+
+
+	/*menu*/
+
+ul {
+	padding: 40px 0 40px 0;
+	margin: 0 20px 0 20px;
+	float: right;
+}
+
+li {
+	/*menu*/
 	display: inline;
+	/*list-style: none;*/
+	/*margin: auto;*/
+	/*padding: 0 15px 0 15px;*/
+	width: 100px;
+	height: 40px;
+	/*text-align:center;*/
+	line-height: 55px;
+	padding: 5px;
+	margin-right: 25px;
+	margin-left: 15px;
+}
+
+a {
+	/* lien ds le menu*/
+	display: inline-block;
+	/*margin: 0px;*/
+	text-decoration: none;
+	color: #223F48;
+	font-size: 16px;
+	/*margin-right: 5px;
+    margin-top: 5px;*/
+}
+
+a:hover {
+	/*Menu qui change de couleur*/
+	color: #91B5C9;
 }
 
 .chase {
