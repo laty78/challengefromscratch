@@ -151,6 +151,7 @@ h3 {
 .come {
 	height: 135px;
 	background-color: #3E76B2;
+   margin-bottom: -50px;
 }
 
 .you {
@@ -159,6 +160,7 @@ h3 {
 	font-weight: 400px;
 	margin-left: 25px;
 	padding-top: 50px;
+   
 }
 
 .icone {
@@ -168,7 +170,7 @@ h3 {
 }
 
 .famous {
-	margin: 0;
+	margin-top: 0;
 	height: 820px;
 	background-image: url(images/30.png);
 	background-color: transparent;
@@ -205,13 +207,13 @@ h3 {
 .expo {
 	background-color: white;
 	border-radius: 250px;
-	width: 130px;
-	height: 130px;
+	width: 140px;
+	height: 140px;
 	border-color: 2px #B5D2E2;
 }
 
 .fire {
-	margin-top: 100px;
+	margin-top: 70px;
 	text-align: center;
 	display: inline-block;
 	margin-left: 100px;
@@ -220,7 +222,7 @@ h3 {
 
 .best {
 	height: 1000px;
-	margin-bottom: 0px;
+	margin-bottom: -150px;
 	margin-top: 130px;
 }
 
@@ -340,15 +342,28 @@ h3 {
 .themisto {
 	height: 600px;
 	background-image: url(images/bg-testimonials.jpg);
-	background-color: transparent;
-	background-blend-mode: saturation;
-	/*filter: brightness(50%);
+
+	
+   
+	filter: brightness(50%);
 	-webkit-filter: brightness(50%);
 	-moz-filter: brightness(50%);
 	-o-filter: brightness(50%);
-	-ms-filter: brightness(50%);*/
+	-ms-filter: brightness(50%);
 	background-repeat: no-repeat;
 	background-size: cover;
+    background-position: center;
+   
+}
+.them{
+    color: white!important;
+    font-size: 60px;
+    font-weight: 400px;
+    line-height: 78px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+    padding-top: 100px;
 }
 
 #carrousel {
@@ -398,25 +413,64 @@ h3 {
 
 .studies {
 	height: 1000px;
-}
 
-.titre {
-	font-size: 24px;
+}
+.traittitr{
+    	background-color: #E5E5E5;
+	height: 2pt;
+	width: 32px;
+	margin-left: 630px;
+	margin-bottom: 75px;
+	margin-top: 25px;
+}
+.titres{
+    	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    	font-size: 22px;
 	font-weight: 400px;
 	color: rgb(106, 145, 190);
+    margin-left: 120px;
+   
 }
-
-.icone {}
-
-.text {
-	font-size: 16px;
+/*.icones{
+    	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}*/
+.texte{
+    	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    	font-size: 15px;
 	font-weight: 400px;
+    line-height: 26px;
 	color: rgb(119, 119, 119);
 	float: right;
-	text-align: center;
+    margin-top: -400px;
+    margin-right: 55px;
+    
+}
+.titre {
+margin-bottom: 45px;
+}
+
+.icon {
+ 
+   margin-top: -70px;
+    margin-left: 250px;
+    width: 45px;
+    margin-bottom: 45px;
+}
+
+.text {
+margin-bottom: 45px;
+
+    
 }
 
 .civil {
+    margin-top: 150px;
 	height: 440px;
 	background-image: url(images/bg-civil-law.jpg);
 	/*-webkit-filter: grayscale(100%);
@@ -475,6 +529,7 @@ footer {
 	font-size: 12px;
 	font-weight: 400px;
 	letter-spacing: 1px;
+    margin-top: 0;
 	padding-top: 25px;
 	margin-left: 20px;
 }
