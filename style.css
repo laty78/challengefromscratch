@@ -124,20 +124,44 @@ h3 {
 .our {
 	height: 1100px;
 }
+.cup{
+
+   
+}
 
 .court1 {
 	display: flex;
-	justify-content: center;
+	
+     flex-direction: column;
+    float: left;
+   
 }
 
 .court2 {
 	display: flex;
-	justify-content: center;
+
+     flex-direction: column;
+    float: right;
+}
+.cercle1{
+    	margin-left: 320px;
+	
+}
+.cercle2{
+margin-right: 320px;
+   
+}
+.cour1 {
+display: flex;
+   
 }
 
-.cour1 {}
+.cour2 {
+    display: flex;
+    margin-left: 250px;
+ 
 
-.cour2 {}
+}
 
 .badges {
 	padding-top: 100px;
@@ -218,8 +242,32 @@ h3 {
 	display: inline-block;
 	margin-left: 100px;
 	margin-bottom: 115px;
+     -moz-animation: anim 5s ;
+    -webkit-animation: anim 5s ;
+    -o-animation: anim 5s ;
+    -ms-animation: anim 5s ;
+    animation: anim 5s ;
 }
-
+@-moz-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-webkit-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-o-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@-ms-keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+@keyframes anim {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
 .best {
 	height: 1000px;
 	margin-bottom: -150px;
